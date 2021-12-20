@@ -44,7 +44,7 @@
 .header__search{
     display: flex;
     margin-left: auto;
-    background-color: #01060a;
+    background-color: var(--primary-color);
     border-radius: 3px;
     height: 46px;
     width: 330px;
@@ -65,7 +65,7 @@
 }
 
 .header__search-input::placeholder{
-    color: #abb7c4;
+    color: var(--text-color);
 }
 .header__search-input {
     width: 100%;
@@ -73,11 +73,11 @@
     border: none;
     outline: none;
     font-size: 1.3rem;
-    color: #abb7c4 ;
+    color: var(--text-color) ;
     font-weight: 400;
     padding: 0 16px;
     border-radius: 2px;
-    background-color:#01060a;
+    background-color: var(--primary-color);
     border: 1px solid #9b9999;
     box-shadow: 0 0 0 none;
     transition: all linear .2s;
@@ -93,13 +93,13 @@
 }
 .header__search-btn-icon {
     font-size: 1.4rem;
-    color: #abb7c4 ;    
+    color: var(--text-color) ;    
 }
 
 .header__search-btn-icon-mobile{
     display: none;
     font-size: 1.4rem;
-    color: #abb7c4 ;  
+    color: var(--text-color) ;  
 }
 
 .btn-link{
@@ -112,13 +112,13 @@
     outline: none;
     height: 40px;
     padding: 4px 8px;
-    background-color: #01060a;
+    background-color: var(--primary-color);
     color: var(--white-color);
     font-weight: 300;
     margin-left: 16px;
     border-radius: 3px;
 }
-/*========HEADER NAVBAR ===========*/
+/*========HEADER NAVIGATION ===========*/
 .header__navbar{
     width: 100%;
     height: var(--navbar-height);
@@ -139,7 +139,7 @@
     text-decoration: none;
     line-height: 40px;
     padding: 0 15px 0 15px;
-    color: #abb7c4 ;
+    color: var(--text-color) ;
     font-size: 1.4rem;
     font-weight: 700;
     display: block;
@@ -190,6 +190,9 @@
     background-color: var(--white-color);
     color: var(--black-color);
 }
+
+
+
 
 
 
@@ -249,8 +252,6 @@
     border: none;
 }
 
-
-/*=======navigation======*/
 .navigation__icon--close{
     display: none;
 }
@@ -297,6 +298,10 @@
     transition-delay: .3s;
 }
  
+
+
+
+
 
 /*===================SLIDESHOW GALARY=============*/
 
@@ -382,6 +387,9 @@
  
 
 
+
+
+
  /* ==============Content================ */
 .app{
     padding-top: 20px;
@@ -393,7 +401,7 @@
 }
 
 .carousel--dark-background{
-    background-color: rgb(1, 6, 10);
+    background-color: var(--primary-color);
 }
 
 .hidden-movie{
@@ -416,7 +424,7 @@
 }
 
 .carousel__view-all{
-    color: #abb7c4;
+    color: var(--text-color);
     font-size: 1.4rem;
     text-transform: uppercase;
     font-weight: bold;
@@ -426,7 +434,7 @@
 }
 
 .carousel__view-all-next-icon{
-    color: #abb7c4;
+    color: var(--text-color);
     font-size: 1.8rem;
     margin-bottom: 2px;
     margin-left: 4px;
@@ -436,7 +444,7 @@
 .carousel__view-all:hover,
 .carousel__view-all:hover .carousel__view-all-next-icon
 {
-    color: #dcf836 !important;
+    color: var(--text-hover-color) !important;
 }
 
 .carousel__movies-item .carousel__movie-chapter{
@@ -500,7 +508,7 @@
 }
 
 .carousel__movies-item:hover .movies-title{
-    color: #dcf836;
+    color: var(--text-hover-color);
 }
 
 .carousel__movies-item:hover .icon--play{
@@ -514,7 +522,7 @@
     z-index: 2;
     border: none;
     height: 80px;
-    background-color: rgb(2, 13, 24);
+    background-color: var(--another-primary-color);
     cursor: pointer;
     display: block;
 }
@@ -547,9 +555,13 @@
 }
 
 
+
+
+
+
 /* ========================= side bar =========================== */
 .sidebar{
-    background-color: rgb(1, 6, 10) !important;
+    background-color: var(--primary-color) !important;
     padding: 10px 15px;
 }
 
@@ -588,11 +600,11 @@
     width: 100%;
     border: none;
     padding: 11px 0px;
-    border-bottom: 3px solid rgb(2, 13, 24);
+    border-bottom: 3px solid var(--another-primary-color);
     font-size: 1.1rem;
     text-transform: uppercase;
     color: var(--white-color);
-    background-color: rgb(2, 13, 24);
+    background-color: var(--another-primary-color);
     line-height: 1.6rem;
     font-weight: bold;
     transition: all ease-in-out .3s;
@@ -693,7 +705,7 @@
 }
 
 .sidebar__billboard-movie-item:hover .sidebar__billboard-movie-title{
-    color: #dcf836;
+    color: var(--text-hover-color);
 }
 
 .sidebar__billboard-movie-item:hover .icon--play{
@@ -718,7 +730,7 @@
 }
 
 .sidebar__coming-soon-movie-item:hover .movies-title{
-    color: #dcf836;
+    color: var(--text-hover-color);
 }
 
 .sidebar__coming-soon-movie-link{
@@ -746,6 +758,10 @@
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
 }
+
+
+
+
 
 /* ==================footer================== */
 .footer__row{
@@ -809,7 +825,7 @@
 .copy-right-desc a:hover,
 .back-to-top:hover
 {
-    color: #dcf836;
+    color: var(--text-hover-color);
 }
 
 .back-to-top {
