@@ -1,0 +1,121 @@
+
+
+/* tablet */
+@media (min-width: 740px) and(max-width: 1023px){
+    
+    
+}
+
+/* mobile + tablet */
+@media (max-width: 1023px){
+    :root{
+        --header-height: 149px;
+        --header-with-search-height: 69px;
+    }
+    .header__navbar-item > a{
+        line-height: 1.8rem;
+        padding: 24px 8px;
+        text-align: center;
+    }
+
+    .drop-subnav{
+        display: block;
+    }
+
+    .banner-img{
+        height: 212px;
+    }
+
+    .prev, .next{
+        top: 57% !important;
+    }
+    .navigation__icon{
+        top: 87px;
+        font-size: 2.6rem;
+    }
+    .header__navbar--vertical .header__navbar-sub-item-link,
+    .header__navbar-sub-item-link{
+        line-height: 46px !important;
+    }
+    .header__navbar--vertical .header__navbar-item:hover .header__navbar-item-link::before{
+        width: calc(50vw - 28px);
+    }
+    
+    .demo{
+        height: 70px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+}
+
+
+/* mobile */
+@media (max-width: 739px){
+    header.header{
+        height: 70px;
+    }
+
+    .header-with-search{
+        height: 70px;
+    }
+
+    .slider{
+        padding-top: 70px;
+    }
+
+    .header__search{
+        display: none;
+    }
+
+    .header__navbar-list{
+        display: none;
+    }
+
+    .header__navbar{
+        height: 0;
+    }
+
+    .header__navbar-list{
+        display: none;
+    }
+    .header__search-btn-icon-mobile{
+        position: fixed;
+        top: 12px;
+        right: 20px;
+        border-radius: 5px;
+        background-color: rgb(1, 6, 10);
+        padding: 18px 20px ;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .header-with-search{
+        justify-content: center;
+        margin-right: 15px;
+    }
+
+    .banner-img{
+        height: 180px;
+    }
+
+    .navigation__icon{
+        top: 14px;
+        left: 20px;
+        width: 50px;
+        color: white !important;
+    }
+    .header__navbar-sub-item{
+        width: 50%;
+    }
+    .prev, .next{
+        top: 50% !important;
+    }
+}
+
+
+@media (max-width: 350px ){
+    .header__logo-text .header__logo-name-website{
+        font-size: 2.3rem;
+    }
+}
+

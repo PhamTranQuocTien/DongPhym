@@ -1,0 +1,82 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --primary-color-dark:#01060a; 
+    --border-color: #dbdbdb;
+    
+    --header-height: 109px;
+    --header-with-search-height: 69px;
+    --navbar-height: calc(var(--header-height) - var(--header-with-search-height));
+}
+*{
+    box-sizing: inherit;
+}
+ /* 100% = 16px */
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cuprum', sans-serif;
+}
+body{
+    background-color: #020d18;
+}
+
+ul{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a{
+    padding: 0;
+    text-decoration: none;
+}
+
+span{
+    display: inline-block;
+}
+
+.scrollbar::-webkit-scrollbar{
+    width: 4px;
+}
+
+.scrollbar-webkit-scrollbar-track{
+    background-color: rgb(1, 6, 10);
+}
+
+.scrollbar::-webkit-scrollbar-thumb{
+    background-color: #2d2d2d;
+    border-radius: 30px;
+}
+
+.movies-title{
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 10px 0 0 0;
+    text-transform: capitalize;
+    transition: all ease-in-out .2s;
+}
+
+.movies-eng-title{
+    color: #abb7c4;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2.4rem;
+    text-transform: capitalize;
+    margin: 0 0 10px 0 ;
+    display: inline-block;
+    width: 100%;
+}
+
+.movies-title,
+.movies-eng-title{
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
