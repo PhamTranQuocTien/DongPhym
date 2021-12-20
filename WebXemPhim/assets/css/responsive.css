@@ -46,6 +46,16 @@
         object-fit: cover;
         object-position: center;
     }
+    .footer__row{
+        flex-direction: column;
+    }
+    .footer__info-heading{
+        margin-bottom: 8px;
+        margin-top: 16px;
+    }
+    .copy-right-desc{
+        margin-right: 230px;
+    }
 
 }
 
@@ -109,6 +119,16 @@
     }
     .prev, .next{
         top: 50% !important;
+    }
+    .footer__row{
+        margin: 0 16px;
+    }
+    .copy-right-wrapper{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .copy-right-desc{
+        margin-right: 0;
     }
 }
 
