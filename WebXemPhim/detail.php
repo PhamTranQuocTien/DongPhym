@@ -18,20 +18,21 @@
 <body>
     <div class="main">
 
-        <!-- header + slider -->
+
         <?php  
             // import header
             include("./assets/components/header/header.php");
-            // import banner
-            include("./assets/components/banner/banner.php");
+
+            // import detail movie
+            include("./assets/components/app/detailPage/movie_detail.php");
         ?>
 
-
-        <div class="app">
+        
+        <div class="app">   
             <div class="grid wide">
-                <div class="row m-l-r-15">
+                <div class="row">
                     <?php 
-                        include("./assets/components/app/subPage/content_subpage.php");
+                        include("./assets/components/app/detailPage/content_detail.php");
                     ?>
                 </div>
             </div>
@@ -40,7 +41,7 @@
         <!-- footer -->
         <?php 
             // import footer
-            include("./assets/components/footer/footer.php");
+            // include("./assets/components/footer/footer.php");
         ?>
     </div>
     

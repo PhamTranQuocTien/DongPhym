@@ -50,6 +50,20 @@
     .copy-right-desc{
         margin-right: 230px;
     }
+    .banner{
+        margin-top: 149px !important;
+    }
+    .back-to-top,
+    .copy-right-desc
+    {
+        padding: 10px 0px;
+    }
+
+    .pagination__prev-link,
+    .pagination__next-link,
+    .pagination__link{
+        padding: 12px;
+    }
 
 }
 
@@ -124,6 +138,9 @@
     .copy-right-desc{
         margin-right: 0;
     }
+    .banner{
+        margin-top: 69px !important;
+    }
 }
 
 
@@ -131,5 +148,18 @@
     .header__logo-text .header__logo-name-website{
         font-size: 2.3rem;
     }
-}
 
+    .pagination{
+        height: 100px;
+        justify-content: start;
+    }
+    .pagination__next-link{
+        position: relative;
+        top: 44px;
+        right: 100px;
+    }
+    .pagination__list{
+        margin-left: 24px;
+    }
+    
+}

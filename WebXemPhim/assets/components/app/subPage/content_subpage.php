@@ -185,7 +185,7 @@
 
 
 
-<nav class="col l-12 pagination" id="pagination">
+<nav class="col l-12 pagination" >
     <ul class="pagination__list">
         <li class="pagination__prev">
             <a href="#pagination" class="pagination__prev-link">                
