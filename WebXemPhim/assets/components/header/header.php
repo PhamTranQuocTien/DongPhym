@@ -35,7 +35,7 @@
 
     
     <div class="header__navbar">
-        <ul class="header__navbar-list">
+        <ul class="header__navbar-list scrollbar">
             <li class="header__navbar-item">
                 <a href="" class="header__navbar-item-link">Thể Loại
                     <i class="drop-subnav fa fa-caret-down"></i>
@@ -109,9 +109,11 @@
 <script>
     var navbar = document.querySelector(".header__navbar");
     var navbarVertical = document.querySelector(".header__navbar--vertical");
+    var navbarList = document.querySelector(".header__navbar-list");
     var navIconOpen = document.querySelector(".navigation__icon--open");
     var navIconClose = document.querySelector(".navigation__icon--close");
     var navBackground = document.querySelector(".navigation__background");
+    
 
     navIconOpen.addEventListener('click',function(){
         navbar.classList.add("header__navbar--vertical");
@@ -123,7 +125,7 @@
     })
 
     navIconClose.addEventListener('click',function(){
-        navbar.classList.remove("header__navbar--vertical");    
+        navbar.classList.remove("header__navbar--vertical"); 
         navIconClose.style.display = "none";
         navIconOpen.style.display = "inline-block";
         navBackground.style.transform = "translateY(calc(-100% - 69px))";

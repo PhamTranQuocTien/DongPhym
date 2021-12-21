@@ -3,11 +3,12 @@
 .header{
     width: 100%;
     height: var(--header-height);
-    background-image: url(https://dongphymtv.com/theme/tet21com.jpg);
+    background-image: url('https://dongphymtv.com/theme/tet21com.jpg');
     background-size: cover;
     background-position: top;
     z-index: 5000;
     position: fixed;
+    top: 0;
 }
 
 .header__logo-text{

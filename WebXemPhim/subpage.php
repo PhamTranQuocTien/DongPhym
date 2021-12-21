@@ -23,16 +23,15 @@
             // import header
             include("./assets/components/header/header.php");
             // import slider
-            include("./assets/components/slider/slider.php");
+            include("./assets/components/banner/banner.php");
         ?>
 
-        <!-- app = content + sidebar -->
+       
         <div class="app">
             <div class="grid wide">
                 <div class="row">
                     <?php 
-                        include("./assets/components/app/homePage/content_homepage.php");
-                        include("./assets/components/app/sidebar/sidebar.php");
+                        include("./assets/components/app/subPage/content_subpage.php");
                     ?>
                 </div>
             </div>
@@ -41,7 +40,7 @@
         <!-- footer -->
         <?php 
             // import footer
-            include("./assets/components/footer/footer.php");
+            // include("./assets/components/footer/footer.php");
         ?>
     </div>
     
