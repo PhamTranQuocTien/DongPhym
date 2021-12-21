@@ -29,7 +29,7 @@
        
         <div class="app">
             <div class="grid wide">
-                <div class="row">
+                <div class="row m-l-r-15">
                     <?php 
                         include("./assets/components/app/subPage/content_subpage.php");
                     ?>
@@ -40,7 +40,7 @@
         <!-- footer -->
         <?php 
             // import footer
-            // include("./assets/components/footer/footer.php");
+            include("./assets/components/footer/footer.php");
         ?>
     </div>
     

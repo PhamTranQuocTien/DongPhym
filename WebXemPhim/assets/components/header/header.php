@@ -106,6 +106,14 @@
     <!-- End header navbar -->
 </header>
 
+
+
+<style>
+    .header{
+        top:0;
+    }
+</style>
+
 <script>
     var navbar = document.querySelector(".header__navbar");
     var navbarVertical = document.querySelector(".header__navbar--vertical");

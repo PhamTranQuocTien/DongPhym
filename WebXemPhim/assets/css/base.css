@@ -43,6 +43,12 @@ span{
     display: inline-block;
 }
 
+
+
+.m-b-30{
+    margin-bottom: 30px;
+}
+/* ================= SCROLLBAR================= */
 .scrollbar::-webkit-scrollbar{
     width: 4px;
 }
@@ -56,14 +62,39 @@ span{
     border-radius: 30px;
 }
 
-.movies-title{
+
+/* ===================== TITLE CỦA TỪNG CAROUSEL NHƯ LÀ ĐỘNG ĐỀ CỬ CHO BẠN==================== */
+.title{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
     color: var(--white-color);
-    font-size: 1.4rem;
-    font-weight: 900;
-    margin: 10px 0 0 0;
-    text-transform: capitalize;
-    transition: all ease-in-out .2s;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    display: inline-block;
 }
+
+/* ==================== ẢNH CỦA CÁC MOVIE ITEM NẰM DỌC================== */
+
+.movies-item-img-vertical{
+    padding-top: 133.333%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    position: relative;
+}
+
+.movies-item-img-vertical::before{
+    content: "";
+    position: absolute;
+    background-color: transparent;
+    inset: 0;
+    transition: all ease-in-out .2s;
+    opacity: 0;
+}
+
+/* ================== MOVIE ITEM NẰM DỌC ==============*/
 
 .movies-eng-title{
     color: var(--text-color);
@@ -76,9 +107,53 @@ span{
     width: 100%;
 }
 
+.movies-title{
+    color: var(--white-color);
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin: 10px 0 0 0;
+    text-transform: capitalize;
+    transition: all ease-in-out .2s;
+}
+
 .movies-title,
 .movies-eng-title{
     overflow: hidden !important;
     text-overflow: ellipsis !important;
     white-space: nowrap !important;
 }
+
+.movies-item-vertical{
+    position: relative;
+}
+
+
+.movies-item-vertical .movie-chapter-vertical{
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    color: var(--white-color) ;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    padding: 5px 7px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+
+
+.movies-item-vertical:hover .movies-item-img-vertical::before{
+    background-color: rgba(0, 0, 0, .3);
+    opacity: 1;
+}
+
+.movies-item-vertical:hover .movies-title{
+    color: var(--text-hover-color);
+}
+
+.movies-item-vertical:hover .icon--play{
+    opacity: 1;
+}
+
+
