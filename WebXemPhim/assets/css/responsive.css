@@ -103,6 +103,24 @@
     .content__movie-content{
         margin-top: 40px;
     }
+    .play-movie{
+        margin-top: 149px !important;
+        padding-top: 0 !important;
+    }
+    .play-movie__wrapper{
+        width: auto !important;
+        height: 328px !important;
+    }
+
+    .movie-heading{
+        display: flex;
+        justify-content: center;
+        line-height: 4rem;
+    }
+
+    .play-movie__showtime{
+        width: 100% !important;
+    }
     
 }
 
@@ -226,7 +244,23 @@
     .rating__info{
         margin-left: 0;
     }
+
+    .play-movie{
+        margin-top: 69px !important;
+        padding-bottom: 70px !important;
+    }
+
+    .play-movie-rating__wrapper{
+        margin-top: 18px !important;
+    }
     
+    .episode-wrapper{
+        margin-bottom: 30px !important;
+    }
+
+    #play-movie .carousel--dark-background{
+        margin-bottom: 20px;
+    }
 
 }
 

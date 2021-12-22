@@ -13,7 +13,7 @@
                     </button>
                     <a href="" class="interactive-btn interactive-btn-share">Share</a>
                 </div>
-                <a href="" class="play-movie">
+                <a href="" class="play-movie-btn">
                     <i class="play__icon far fa-play-circle"></i>
                     <span>Xem phim</span>
                 </a>
