@@ -1,4 +1,4 @@
-<div class="col l-3 m-0 c-0">
+<div class="col l-3 m-12 c-12">
     <div class="sidebar">
         
         <div class="sidebar__top-rating">

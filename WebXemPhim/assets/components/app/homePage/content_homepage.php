@@ -5,7 +5,7 @@
         </div>
 
         <div   div class="carousel__movies">
-            <div class="row hidden-movie">
+            <div class="row m-l-r-5 hidden-movie">
                 <button class="prev-btn">
                     <i class="prev-icon fas fa-angle-left"></i>
                 </button>
@@ -15,7 +15,7 @@
                 </button>
 
 
-                <div class="col l-spe m-3 c-6 move-movie" >
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie" >
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 11 vietsub</span>
                         <div class="movies-item-img-vertical"   id="js-length-image" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1639054070.jpg');">
@@ -26,7 +26,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 8 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637949322.jpg');">
@@ -37,7 +37,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập Đặc biệt vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1611046684_DavrPwE.jpg');">
@@ -48,7 +48,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">HD-vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1455946790_Himalaya_poster_goldposter_com_12.jpg');">
@@ -59,7 +59,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 15 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1635068501.jpg');">
@@ -70,7 +70,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 1 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638589949.jpg');">
@@ -81,7 +81,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 9 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1636307019.jpg');">
@@ -92,7 +92,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637170646.jpg');">
@@ -103,7 +103,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638777645.jpg');">
@@ -137,7 +137,7 @@
                 </button>
 
 
-                <div class="col l-spe m-3 c-6 move-movie" >
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie" >
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 11 vietsub</span>
                         <div class="movies-item-img-vertical"   id="js-length-image" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1639054070.jpg');">
@@ -148,7 +148,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 8 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637949322.jpg');">
@@ -159,7 +159,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập Đặc biệt vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1611046684_DavrPwE.jpg');">
@@ -170,7 +170,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">HD-vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1455946790_Himalaya_poster_goldposter_com_12.jpg');">
@@ -181,7 +181,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 15 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1635068501.jpg');">
@@ -192,7 +192,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 1 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638589949.jpg');">
@@ -203,7 +203,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 9 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1636307019.jpg');">
@@ -214,7 +214,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637170646.jpg');">
@@ -225,7 +225,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638777645.jpg');">
@@ -259,7 +259,7 @@
                 </button>
 
 
-                <div class="col l-spe m-3 c-6 move-movie" >
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie" >
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 11 vietsub</span>
                         <div class="movies-item-img-vertical"   id="js-length-image" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1639054070.jpg');">
@@ -270,7 +270,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 8 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637949322.jpg');">
@@ -281,7 +281,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập Đặc biệt vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1611046684_DavrPwE.jpg');">
@@ -292,7 +292,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">HD-vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1455946790_Himalaya_poster_goldposter_com_12.jpg');">
@@ -303,7 +303,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 15 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1635068501.jpg');">
@@ -314,7 +314,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 1 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638589949.jpg');">
@@ -325,7 +325,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 9 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1636307019.jpg');">
@@ -336,7 +336,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637170646.jpg');">
@@ -347,7 +347,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638777645.jpg');">
@@ -381,7 +381,7 @@
                 </button>
 
 
-                <div class="col l-spe m-3 c-6 move-movie" >
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie" >
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 11 vietsub</span>
                         <div class="movies-item-img-vertical"   id="js-length-image" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1639054070.jpg');">
@@ -392,7 +392,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 8 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637949322.jpg');">
@@ -403,7 +403,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập Đặc biệt vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1611046684_DavrPwE.jpg');">
@@ -414,7 +414,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">HD-vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1455946790_Himalaya_poster_goldposter_com_12.jpg');">
@@ -425,7 +425,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 15 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1635068501.jpg');">
@@ -436,7 +436,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 1 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638589949.jpg');">
@@ -447,7 +447,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 9 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1636307019.jpg');">
@@ -458,7 +458,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637170646.jpg');">
@@ -469,7 +469,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638777645.jpg');">
@@ -503,7 +503,7 @@
                 </button>
 
 
-                <div class="col l-spe m-3 c-6 move-movie" >
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie" >
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 11 vietsub</span>
                         <div class="movies-item-img-vertical"   id="js-length-image" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1639054070.jpg');">
@@ -514,7 +514,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 8 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637949322.jpg');">
@@ -525,7 +525,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập Đặc biệt vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1611046684_DavrPwE.jpg');">
@@ -536,7 +536,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">HD-vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1455946790_Himalaya_poster_goldposter_com_12.jpg');">
@@ -547,7 +547,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 15 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1635068501.jpg');">
@@ -558,7 +558,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 1 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638589949.jpg');">
@@ -569,7 +569,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Tập 9 vietsub</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1636307019.jpg');">
@@ -580,7 +580,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1637170646.jpg');">
@@ -591,7 +591,7 @@
                     </a>
                 </div>
 
-                <div class="col l-spe m-3 c-6 move-movie">
+                <div class="col l-spe m-3 p-l-r-5 c-6 move-movie">
                     <a href="" class="movies-item-vertical">
                         <span class="movie-chapter-vertical">Thuyết minh 1080p</span>
                         <div class="movies-item-img-vertical" style="background-image: url('https://dongphymtv.com/public/files/flim/120x160/1638777645.jpg');">
@@ -715,3 +715,17 @@
     })
     hideBtn();
 </script>
+
+<style>
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+</style>

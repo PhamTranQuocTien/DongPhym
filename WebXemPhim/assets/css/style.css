@@ -29,7 +29,7 @@
 }
 
 .logo-name-website{
-    font-size: 3.15rem !important;
+    font-size: 3.15rem ;
     line-height: 4.3rem !important;
     font-weight: 600 !important;
     color: var(--white-color);
@@ -394,6 +394,7 @@
  /* ==============Content================ */
 .app{
     padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .carousel{
@@ -867,8 +868,9 @@
 
 .detail-movie-background{
     margin-top: 109px;
-    height: 480px;
+    height: 500px;
     background-position: center;
+    position: relative;
     background-size: cover;
 }
 
@@ -877,6 +879,10 @@
     background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
     inset: 0;
+}
+
+.detail-movie-img-wrapper{
+    margin-top: 30px;
 }
 
 .detail-movie_img{
@@ -889,15 +895,7 @@
     top: 50px;
 }
 
-.col.m-l-r-15{
-    margin-left: -15px;
-    margin-right: -15px;
-}
 
-.col.p-l-r-15{
-    padding-left: 15px;
-    padding-right: 15px;
-}
 
 .interactive{
     display: flex;
@@ -911,7 +909,9 @@
     border-radius: 2px;
     color: var(--white-color);
     padding: 1px 6px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #4080ff;
     flex: 1;
     text-align: center;
@@ -923,7 +923,17 @@
     background-color: rgba(64, 128, 255,0.8);
 }
 
-.interactive-btn-like{
+.interactive-btn--like .liked__icon{
+    display: none;
+}
+
+.interactive-btn--liked .like__icon{
+    display: none;
+}
+
+.interactive-btn--like,
+.interactive-btn--liked
+{
     margin-right: 8px;
 }
 
@@ -952,6 +962,10 @@
 .play__icon{
     font-size: 2.6rem;
     margin-right: 8px;
+}
+
+.detail-movie-background{
+    
 }
 
 .detail-movie-background .movies-title{
@@ -1078,9 +1092,14 @@
 }
 
 .rating{
+    
+}
+
+.rating__wrapper{
+    background-color: #222222;
+    padding: 18px 10px;
     display: flex !important;
     align-items: center;
-    background-color: #222222;
     justify-content: center;
     border-radius: 4px;
 }
@@ -1109,4 +1128,40 @@
     line-height: 1.6rem;
     font-size: 1.4rem;
     margin-left: 50px;
+}
+
+.content__movie-title{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--text-hover-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 40px;
+}
+
+.content__movie-title span{
+    padding: 0 15px 15px 15px;
+    border-bottom: 3px solid var(--text-hover-color);
+}
+
+.content__movie-content{
+    color: var(--text-color);
+    margin-top: 80px;
+}
+
+.content__movie-name{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.content__movie-desc{
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+#detail-carousel{
+    margin-right: 0;
+    margin-left: 0;
 }

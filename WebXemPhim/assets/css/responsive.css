@@ -65,6 +65,45 @@
         padding: 12px;
     }
 
+
+
+    .detail-movie-background{
+        margin-top: 149px;
+        height: 650px;
+        max-width: 100vw;
+    }
+
+    .interactive-btn{
+        padding: 11px 6px;
+        font-size: 1.4rem;
+    }
+
+    .episode__list{
+        max-height: 100px;
+        overflow-x: hidden;
+    }
+
+    .movie__info-desc{
+        width: 50%;
+    }
+
+    .showtime-rating{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 84vw;
+    }
+    .showtime{
+        margin-bottom: 10px;
+    }
+
+    .detail-movie-img-wrapper{
+        margin-top: 0;
+    }
+    .content__movie-content{
+        margin-top: 40px;
+    }
+    
 }
 
 
@@ -141,12 +180,66 @@
     .banner{
         margin-top: 69px !important;
     }
+
+    .detail-movie-background{
+        margin-top: 70px;
+    }
+
+    .row{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .detail-movie-content{
+        justify-content: center;
+    }
+
+    .detail-movie-background{
+        height: 580px;
+    }
+
+    .col.l-10.m-8.c-12{
+        margin-top: 66px;
+    }
+
+    .movie__info{
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .showtime-rating{
+        position: initial;
+        left: 0;
+        transform: none;
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #detail{
+        padding-top: 650px;
+    }
+
+    .rating__wrapper{
+        flex-direction: column;
+    }
+
+    .rating__info{
+        margin-left: 0;
+    }
+    
+
+}
+
+@media (max-width: 430px) {
+    #detail{
+        padding-top: 500px;
+    }
 }
 
 
 @media (max-width: 350px ){
-    .header__logo-text .header__logo-name-website{
-        font-size: 2.3rem;
+    .logo-name-website{
+        font-size: 2.3rem !important;
     }
 
     .pagination{
@@ -161,5 +254,9 @@
     .pagination__list{
         margin-left: 24px;
     }
-    
+
+    .detail-movie-background{
+        height: 540px;
+    }
+
 }
